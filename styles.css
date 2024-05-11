@@ -1,0 +1,32 @@
+* {
+  background-color: #b5c1b2;
+  /* height: 100vh;
+  width: 100vw; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.zones {
+  height: 80vh;
+  background-color: #fefaf0;
+}
+#images-section {
+  height: 20vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  height: 100px;
+  width: 150px;
+  margin: 12px;
+}
+.dropzone {
+  min-height: 116px;
+  background-color: #393939;
+  margin-bottom: 12px;
+}
+.hovered {
+  background-color: grey;
+}
